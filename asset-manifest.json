@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/password/static/css/main.8b3fcd91.css",
-    "main.js": "/password/static/js/main.dc6c1f6f.js",
+    "main.css": "/password/static/css/main.01ac2e6c.css",
+    "main.js": "/password/static/js/main.e29ee942.js",
+    "static/media/ios wallpaper.avif": "/password/static/media/ios wallpaper.fa4c07be97cc2324d082.avif",
     "index.html": "/password/index.html",
-    "main.8b3fcd91.css.map": "/password/static/css/main.8b3fcd91.css.map",
-    "main.dc6c1f6f.js.map": "/password/static/js/main.dc6c1f6f.js.map"
+    "main.01ac2e6c.css.map": "/password/static/css/main.01ac2e6c.css.map",
+    "main.e29ee942.js.map": "/password/static/js/main.e29ee942.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b3fcd91.css",
-    "static/js/main.dc6c1f6f.js"
+    "static/css/main.01ac2e6c.css",
+    "static/js/main.e29ee942.js"
   ]
 }
