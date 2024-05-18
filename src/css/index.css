@@ -1,0 +1,80 @@
+/*---basic style---*/
+
+main {
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+  font-family: Inter, Arial, sans-serif;
+  color: #fff;
+}
+
+
+.mobile {
+  display: grid;
+  place-content: center;
+  width: 330px;
+  height: 700px;
+  border-radius: 50px;
+  background: url('../components/ios\ wallpaper.avif');
+  position: relative;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+  padding: 110px 0;
+  width: 330px;
+  height: 700px;
+  border-radius: 50px;
+  backdrop-filter: blur(24px) saturate(80%);
+}
+
+
+.passcode-input {
+  background-color: hsla(0, 0%, 100%, .322);
+  color: #fff;
+  height: 44px;
+  width: 160px;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid #fff9;
+  font-size: 20px;
+  font-weight: 100;
+  pointer-events: none; 
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 18px;
+}
+
+
+.keyboard button {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: hsla(0, 0%, 100%, .322);
+  border: 1px solid #fff9;
+}
+
+.keyboard button:last-child {
+  grid-column: 2;
+}
+
+.number {
+  color: #fff;
+  font-size: 28px;
+}
+
+.bottom-line {
+  width: 156px;
+  height: 4px;
+  background-color: #ffffffb6;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 10px;
+  right: 79px;
+}
+
+
